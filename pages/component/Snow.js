@@ -9,7 +9,7 @@ export default function Snow(props) {
     return (
         <>
         {arr.map(e => (
-            <div className="snow"></div>
+            <div key={e} className="snow"></div>
         ))}
         </>
     )
